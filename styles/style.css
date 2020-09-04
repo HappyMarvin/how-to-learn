@@ -205,7 +205,7 @@
 
 /* feynman */
 .feynman {
-  height: 790px;
+  min-height: 790px;
   padding-top: 100px;
   box-sizing: border-box;
   background: url("../images/feynman.png") no-repeat left bottom #f2f2f2;
