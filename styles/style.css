@@ -34,6 +34,7 @@
   position: absolute;
   width: 338px;
   bottom: 30px;
+  left: 64px;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -74,6 +75,13 @@
   background-size: cover;
   position: absolute;
   top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+  height: 35px;
+  background: url(../images/logo_place_footer.svg) no-repeat;
+  background-size: cover
 }
 
 /*Description*/
@@ -126,7 +134,7 @@
 }
 
 .section-title {
-  margin: 0;
+  margin: 0 0 20px 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -154,11 +162,6 @@
   color: white;
   position: relative;
   z-index: 1;
-}
-
-/*Микс для внешнего отступа*/
-.section-subtitle__section-title {
-  margin-top: 20px;
 }
 
 .table {
@@ -258,3 +261,91 @@
   top: 0;
 }
 /* !kaufman */
+
+/* footer */
+.footer {
+  background: #1f1f1f;
+  color: white;
+  min-width: 350px;
+  padding: 60px 0 40px 0;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer__column {
+ min-height: 250px;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-basis: 911px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column_content_info {
+ min-width: 126px;
+}
+
+.footer__column_content_social {
+  min-width: 111px;
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__links {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__nav-li {
+  margin: 0;
+}
+
+.footer__link {
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer__social-icon_soc_vk {
+  background-image: url(../images/vk_color_white.svg);
+}
+
+.footer__social-icon_soc_instagram {
+  background-image: url(../images/instagram_color_white.svg);
+}
+
+.footer__social-icon_soc_facebook {
+  background-image: url(../images/facebook_color_white.svg);
+}
+/* !footer */
