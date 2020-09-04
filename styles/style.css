@@ -267,8 +267,9 @@
 .footer {
   background: #1f1f1f;
   color: white;
-  min-width: 350px;
+  min-height: 350px;
   padding: 60px 0 40px 0;
+  box-sizing: border-box;
 }
 
 .footer__columns {
