@@ -290,14 +290,6 @@
   justify-content: space-between;
 }
 
-.footer__column_content_info {
- min-width: 126px;
-}
-
-.footer__column_content_social {
-  min-width: 111px;
-}
-
 .footer__author {
   margin: 18px 0;
   line-height: 25px;
