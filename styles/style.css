@@ -46,6 +46,10 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  opacity: .6;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -242,6 +246,10 @@
   font-size: 36px;
   color: #000000;
 }
+
+.feynman__link:hover {
+  opacity: .6;
+}
 /* !feynman */
 
 /* kaufman */
@@ -324,6 +332,10 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.footer__link:hover {
+  opacity: .6;
 }
 
 .footer__social-icon {
