@@ -37,46 +37,12 @@
 /* !digits */
 
 /* feynman */
-.feynman {
-  min-height: 790px;
-  padding-top: 100px;
-  box-sizing: border-box;
-  background: url("../images/feynman.png") no-repeat left bottom #f2f2f2;
-  background-size: 867px 637px;
-  position: relative;
-}
 
-.feynman__title {
-  margin: 0 auto;
-  width: 648px;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-}
 
-.feynman__subtitle {
-  margin: 70px auto 0 auto;
-  text-align: center;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-}
 
-.feynman__link {
-  text-decoration: none;
-  position: absolute;
-  right: 48px;
-  top: 50%;
-  line-height: 51px;
-  font-size: 36px;
-  color: #000000;
-  transition: opacity 0.4s ease;
-}
 
-.feynman__link:hover {
-  opacity: .6;
-}
+
+
 /* !feynman */
 
 /* kaufman */

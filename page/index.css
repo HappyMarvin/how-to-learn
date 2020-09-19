@@ -26,4 +26,10 @@
 @import "../blocks/table/__heading/table__heading.css";
 @import "../blocks/table/__text/table__text.css";
 @import "../blocks/table/_theme/table_theme_dark.css";
+@import "../blocks/feynman/feynman.css";
+@import "../blocks/feynman/__link/feynman__link.css";
+@import "../blocks/feynman/__subtitle/feynman__subtitle.css";
+@import "../blocks/feynman/__title/feynman__title.css";
+
+
 
