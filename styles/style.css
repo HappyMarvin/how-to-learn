@@ -1,76 +1,14 @@
-@keyframes coup {
-  from {
-    transform:rotate(0);
-  }
-  to {
-    transform:rotate(360deg);
-  }
-}
-
-.rotation {
-  animation: coup 20s linear infinite;
-}
-
-.logo {
-  width: 183px;
-  height: 32px;
-  display: block;
-}
-
-.logo_place_header {
-  background: url(../images/logo_place_header.svg) no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
-
-.logo_place_footer {
-  height: 35px;
-  background: url(../images/logo_place_footer.svg) no-repeat;
-  background-size: cover;
-}
 
 /*Description*/
-.description {
-  display: flex;
-  padding: 100px 0 0 0;
-  justify-content: center;
-}
-.two-columns {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-}
 
-.two-columns__brief {
-  margin: 0;
-  width: 175px;
-  min-width: 175px;
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: normal;
-  color: #2f80ed;
-}
 
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
-}
 
-.two-columns__paragraph {
-  margin: 0  0 30px 0;
-  line-height: 34px;
-  font-size: 24px;
-}
 
-.two-columns__paragraph:last-of-type {
-  margin-bottom: 0;
-}
 
-.two-columns__span-accent {
-  font-weight: bold;
-}
+
+
+
+
 /*!Description*/
 
 /* digits */

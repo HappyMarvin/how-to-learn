@@ -5,3 +5,14 @@
 @import "../blocks/header/__square-pic/header__square-pic.css";
 @import "../blocks/header/__subtitle/header__subtitle.css";
 @import "../blocks/header/__title/header__title.css";
+@import "../blocks/rotation/rotation.css";
+@import "../blocks/logo/logo.css";
+@import "../blocks/logo/_place/logo_place_footer.css";
+@import "../blocks/logo/_place/logo_place_header.css";
+@import "../blocks/description/description.css";
+@import "../blocks/two-columns/two-columns.css";
+@import "../blocks/two-columns/__brief/two-columns__brief.css";
+@import "../blocks/two-columns/__main-text/two-columns__main-text.css";
+@import "../blocks/two-columns/__paragraph/two-columns__paragraph.css";
+@import "../blocks/two-columns/__span-accent/two-columns__span-accent.css";
+
