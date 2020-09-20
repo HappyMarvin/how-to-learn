@@ -1,3 +1,4 @@
+@import "../vendor/normalize.css";
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/header/__link/header__link.css";
@@ -39,7 +40,7 @@
 @import "../blocks/footer/__column-heading/footer__column-heading.css";
 @import "../blocks/footer/__columns/footer__columns.css";
 @import "../blocks/footer/__link/footer__link.css";
-@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__column-links/footer__column-links.css";
 @import "../blocks/footer/__list-item/footer__list-item.css";
 @import "../blocks/footer/__social-icon/footer__social-icon.css";
 @import "../blocks/footer/__social-icon/_soc/footer__social-icon_soc_facebook.css";
@@ -67,10 +68,7 @@
 @import "../blocks/khan/__title/khan__title.css";
 @import "../blocks/resources/resources.css";
 @import "../blocks/resources/__logo/resources__logo.css";
+@import "../blocks/resources/__logo-item/resources__logo-item.css";
 @import "../blocks/resources/__logo-link/resources__logo-link.css";
-@import "../blocks/resources/__logo-link/_res/resources__logo-link_res_arzamas.css";
-@import "../blocks/resources/__logo-link/_res/resources__logo-link_res_strelka.css";
-@import "../blocks/resources/__logo-link/_res/resources__logo-link_res_polka.css";
-@import "../blocks/resources/__logo-link/_res/resources__logo-link_res_nplus.css";
 @import "../blocks/resources/__logo-zone/resources__logo-zone.css";
 

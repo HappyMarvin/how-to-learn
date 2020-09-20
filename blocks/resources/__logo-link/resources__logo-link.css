@@ -1,5 +1,10 @@
 .resources__logo-link {
   width: 275px;
   height: 38px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  transition: opacity 0.4s ease;
+}
+.resources__logo-link:hover {
+  opacity: .6;
 }
